@@ -1,3 +1,3 @@
 # Wordpress_Red_Blue_Teaming
 
-![Network Diagaram](Network Diagaram.png)
+![Network_Diagaram](Network_Diagaram.png)
