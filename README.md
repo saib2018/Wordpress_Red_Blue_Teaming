@@ -85,13 +85,18 @@ Wp-config.php file contained the credential information for the mysql database -
  ![mysqlinfo](mysqlinfo.png) 
 
 Using the above information, logged into mysql and viewed the available databases 
+
+![mysql1](mysql1.png) 
+
 Navigated to the “wordpress” database and perform a select query to identify the contents of the DB tables
- 
+
+![wordpressdb](wordpressdb.png) 
 
 Select query from wp_posts table displayed both flags -3 and 4
 
+![mysqlquery](mysqlquery.png) 
  
-
+![flags_3_4](flags_3_4.png) 
  
 
 flag4.txt: 715dea6c055b9fe3337544932f2941ce 
