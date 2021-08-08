@@ -48,12 +48,14 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       After logging to Target 1 as michael, looked around for a unprotected files and found the flag in service.html
                         cat /var/www/html/service.html | grep flag
             
+![flag1](flag1.png)
 
   - flag2.txt: fc3fd58dcdad9ab23faca6e9a36e581c
     - **Exploit Used**  - Remote Login with users with weak passwords
      
       Wpscan in the previous step had provided with the users that had access on the servers
  
+ ![flag2](flag2.png)
  
 After obtaining the user name ‘michael’ with WPScan, an attacker can attempt to login via SSH. After several attempts with weak passwords such as ‘password’, ‘12345’, a successful login is made by using ‘michael’ as the password. 
 
