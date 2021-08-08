@@ -164,10 +164,10 @@ Excessive HTTP Errors
 
 [Excessive HTTP Errors] is implemented as follows:
 
-●	Metric: HTTP Errors
-●	Threshold: Above 400 for the last 5 minutes
-●	Vulnerability Mitigated: Brute Force Attacks
-●	Reliability: High Reliability
+-	Metric: HTTP Errors
+-	Threshold: Above 400 for the last 5 minutes
+-	Vulnerability Mitigated: Brute Force Attacks
+-	Reliability: High Reliability
 
 ![Excessive_HTTP_Errors](Excessive_HTTP_Errors.png) 
 
@@ -176,10 +176,10 @@ HTTP Request Size Monitor
 
 [HTTP Request Size Monitor] is implemented as follows:
 
-●	Metric: http.request.bytes
-●	Threshold: Above 3500 for the last minute
-●	Vulnerability Mitigated: Denial of Service Attacks.
-●	Reliability: High Reliability.
+-	Metric: http.request.bytes
+-	Threshold: Above 3500 for the last minute
+-	Vulnerability Mitigated: Denial of Service Attacks.
+-	Reliability: High Reliability.
   
 ![HTTP_Request_Size_Monitor](HTTP_Request_Size_Monitor.png) 
 
@@ -189,10 +189,10 @@ CPU Usage Monitor
 
 [CPU Usage Monitor] is implemented as follows:
 
-●	Metric: system.process.cpu.total.pct
-●	Threshold: Above 0.5 for the last 5 minutes.
-●	Vulnerability Mitigated: Excessive CPU Usage
-●	Reliability: Medium Reliability.
+-	Metric: system.process.cpu.total.pct
+-	Threshold: Above 0.5 for the last 5 minutes.
+-	Vulnerability Mitigated: Excessive CPU Usage
+-	Reliability: Medium Reliability.
  
 ![CPU_Usage_Monitor](CPU_Usage_Monitor.png) 
 
