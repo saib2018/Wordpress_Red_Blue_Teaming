@@ -68,13 +68,21 @@ After gaining access to the server, browsed different file paths in linux and id
 
 - flag3.txt:afc01ab56b50591e7dccf93122770cd2 
 
+ ![flag3](flag3.png)
+
 - flag4.txt: 715dea6c055b9fe3337544932f2941ce 
+ 
+ ![flag4](flag4.png)
+ 
     - **Exploit Used** - Unprotected PHP file containing database credentials
 
-After gaining access to the server using michael’s account, identified an unprotected file under php file under /var/www/html/wordpress 
+After gaining access to the server using michael’s account, identified an unprotected file under php file under /var/www/html/wordpress
+
+ ![wordpress1](wordpress1.png)
 
 Wp-config.php file contained the credential information for the mysql database - wordpress
- 
+
+ ![mysqlinfo](mysqlinfo.png) 
 
 Using the above information, logged into mysql and viewed the available databases 
 Navigated to the “wordpress” database and perform a select query to identify the contents of the DB tables
