@@ -21,10 +21,9 @@ Nmap scan results for each machine reveal the below services and OS details:
 
 ```bash
 $ nmap  -sV -sC 192.168.1.110
- ![nmap](nmap.png)
 
 ```
-
+ ![nmap](nmap.png)
 This scan identifies the services below as potential points of entry:
 _TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
 
