@@ -203,20 +203,17 @@ CPU Usage Monitor
 The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats, identified by the alerts above. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
 
 
-Vulnerability 1: Brute Force Attacks
+**Vulnerability 1: Brute Force Attacks**
 
 ●	Patch: Invalid Credentials Lock out. 
-
 ●	Why It Works:  It limits the number of attempts the attacker can commit. 
 
-Vulnerability 2: DOS Attacks
+**Vulnerability 2: DOS Attacks**
 
 ●	Patch: Deploy a Load Balancer 
-
 ●	Why It Works: Distributes connection to a number of servers to reduce the load
 
-Vulnerability 3: Excessive CPU Usage 
+**Vulnerability 3: Excessive CPU Usage** 
 
 ●	Patch: Limit max cpu usage for each core.
-
 ●	Why It Works:  To avoid server resource constraints and failure of server functionality due to server utilization
