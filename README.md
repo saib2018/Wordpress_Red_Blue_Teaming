@@ -55,11 +55,15 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
      
       Wpscan in the previous step had provided with the users that had access on the servers
  
- ![flag2](flag2.png)
+ ![Users](Users.png)
  
 After obtaining the user name ‘michael’ with WPScan, an attacker can attempt to login via SSH. After several attempts with weak passwords such as ‘password’, ‘12345’, a successful login is made by using ‘michael’ as the password. 
 
+ ![ssh](ssh.png)
+
 After gaining access to the server, browsed different file paths in linux and identified the flag in /var/www folder
+
+ ![flag2](flag2.png)
  
 
 - flag3.txt:afc01ab56b50591e7dccf93122770cd2 
