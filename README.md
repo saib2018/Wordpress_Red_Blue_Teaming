@@ -206,6 +206,7 @@ The logs and alerts generated during the assessment suggest that this network is
 Vulnerability 1: Brute Force Attacks
 ●	Patch: Invalid Credentials Lock out. 
 ●	Why It Works:  It limits the number of attempts the attacker can commit. 
+
 Vulnerability 2: DOS Attacks
 ●	Patch: Deploy a Load Balancer 
 ●	Why It Works: Distributes connection to a number of servers to reduce the load
