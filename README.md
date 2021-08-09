@@ -114,20 +114,25 @@ user2:$P$hashvalu3
 
 and running john the ripper against the text file
 
+![johntheripper](johntheripper.png) 
  
 
 Using the password cracked for steven, logging to the server using steven’s credentials
 
-
+![ssh2](ssh2.png) 
  
 
 Identified that we could run python script with Steven’s account using sudo -l command
 
+![sudo](sudo.png)
  
-
 Utilized the below python script to escalate to root account on the server
+
+![python](python.png)
  
-After gaining root access, navigated to root folder to find the flag 4
+After gaining root access, navigated to root folder to find the flag 4 to complete all tasks for the Red Team
+
+![redteam_tasks_completed](redteam_tasks_completed.png)
  
 
 # Blue Team: Summary of Operations
