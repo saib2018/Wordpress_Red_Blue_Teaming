@@ -100,12 +100,12 @@ Select query from wp_posts table displayed both flags -3 and 4
  
 
 flag4.txt: 715dea6c055b9fe3337544932f2941ce 
-One more way to find flag 4
-Exploit used -  escalating to root privileges
+- One more way to find flag 4
+- Exploit used -  escalating to root privileges
 
 Navigated to wp_users table in sql to identify the hash values corresponding to michael & steven
 
-
+![mysqlquery2](mysqlquery2.png) 
  
 
 Copying the hash values to a text file named - wp_hashes.txt with following format 
